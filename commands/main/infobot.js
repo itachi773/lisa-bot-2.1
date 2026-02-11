@@ -63,7 +63,7 @@ export default {
 ❒ *NodeJS ›* ${nodeVersion}
 ❒ *Activo desde ›* ${formattedUptimeDate}
 ❒ *Sistema Activo ›* ${sistemaUptime}
-❒ *${desar === 'Hombre' ? 'Dueño' : desar === 'Mujer' ? 'Dueña' : 'Dueño(a)'} ›* ${owner ? (!isNaN(owner.replace(/@s\.whatsapp\.net$/, '')) ? `@${owner.split('@')[0]}` : owner) : "Oculto por privacidad"}
+❒ *${desar === 'Hombre' ? 'Dueño' : desar === 'Mujer' ? 'Dueña' : 'Dueño(a)'} ›* ${owner ? (!isNaN(owner.replace(/@s\.whatsapp\.net$/, '')) ? `@${owner.split('@')[0]}` : owner) : "DocSebas"}
 
 > \`Enlace:\` ${link}`.trim()
 await client.sendMessage(m.chat, banner.includes('.mp4') || banner.includes('.webm') ? {
