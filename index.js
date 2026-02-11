@@ -66,7 +66,7 @@ console.log(chalk.magentaBright('\n❀ Iniciando...'))
 })
 
 const BOT_TYPES = [
-  { name: 'SubBot', folder: './Sessions/Subs', starter: startSubBot }
+  { name: 'LisaBot', folder: './Sessions/Subs', starter: startSubBot }
 ]
 
 global.conns = global.conns || []
